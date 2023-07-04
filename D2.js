@@ -40,7 +40,7 @@ if (!(n % 5)) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 a = 13;
 b = 4;
-if (a === 8 || b === 8 || a + b === 8 || a - b === 8) {
+if (a === 8 || b === 8 || a + b === 8 || a - b === 8 || b - a) {
   console.log("Condizioni verificate.");
 }
 
