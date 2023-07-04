@@ -210,5 +210,5 @@ Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-arr[arr.length - 1] = 100;
+arr.splice(arr.length - 1, 1, 100);
 console.log(arr);
